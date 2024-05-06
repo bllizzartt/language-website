@@ -1,0 +1,74 @@
+/* styles.css */
+
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#game-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Language selection */
+#language-selection {
+  margin-bottom: 20px;
+}
+
+/* Input and output container */
+#input-output-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* User input */
+#user-input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+#user-text {
+  width: 100%;
+}
+
+/* Translation output */
+#translation-output {
+  flex: 1;
+  margin-left: 10px;
+}
+
+#translated-text {
+  width: 100%;
+}
+
+/* Game output */
+#game-output {
+  border: 1px solid #ccc;
+  padding: 10px;
+  min-height: 100px;
+}
+
+/* Submit button */
+#submit-button {
+  display: block;
+  margin-top: 10px;
+  padding: 8px 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#submit-button:hover {
+  background-color: #45a049;
+}
